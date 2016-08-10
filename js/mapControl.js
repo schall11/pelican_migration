@@ -37,75 +37,229 @@ var timeDimensionControlOptions = {
 var timeDimensionControl = new L.Control.TimeDimension(timeDimensionControlOptions);
 map.addControl(timeDimensionControl);
 
-var icon = L.icon({
-    iconUrl: 'img/dot.png',
-    iconSize: [49, 66],
-    iconAnchor: [5, 25]
-});
+var icon = L.ExtraMarkers.icon({
+    icon: 'ion-location',
+    markerColor: 'red',
+    shape: 'circle'
+
+  });
 
 var customLayer = L.geoJson(null, {
     pointToLayer: function (feature, latLng) {
         if (feature.properties.hasOwnProperty('last')) {
-            return new L.Marker(latLng);
+            switch(feature.properties.name) {
+            case "Annabelle":
+                return new L.Marker(latLng, {
+                icon: L.ExtraMarkers.icon({
+                    icon: 'fa-number',
+                    number: 'A',
+                    markerColor: 'yellow',
+                    shape: 'circle'
+
+                  })
+            });
+            case "Barnabus":
+                return new L.Marker(latLng, {
+                icon: L.ExtraMarkers.icon({
+                    icon: 'fa-number',
+                    number: 'B',
+                    markerColor: 'green-light',
+                    shape: 'circle'
+
+                  })
+            });
+            case "Chester":
+                return new L.Marker(latLng, {
+                icon: L.ExtraMarkers.icon({
+                    icon: 'fa-number',
+                    number: 'C',
+                    markerColor: 'red',
+                    shape: 'circle'
+
+                  })
+            });
+            case "Daphne":
+                return new L.Marker(latLng, {
+                icon: L.ExtraMarkers.icon({
+                    icon: 'fa-number',
+                    number: 'D',
+                    markerColor: 'orange',
+                    shape: 'circle'
+
+                  })
+            });
+            case "Eleanor":
+                return new L.Marker(latLng, {
+                icon: L.ExtraMarkers.icon({
+                    icon: 'fa-number',
+                    number: 'E',
+                    markerColor: 'cyan',
+                    shape: 'circle'
+
+                  })
+            });
         }
-        return L.circleMarker(latLng);
+        }
+
     },
     style: function (feature) {
         switch(feature.properties.name) {
             case "Annabelle":
-                return {color: '#00cc00', weight: 2, opacity: 1};
+                return {color: '#F4B323', weight: 2, opacity: 1};
             case "Barnabus":
-                return {color: '#0066ff', weight: 2, opacity: 1};
+                return {color: '#68AC3A', weight: 2, opacity: 1};
             case "Chester":
-                return {color: '#ff0000', weight: 2, opacity: 1};
-            case "Eleanor":
-                return {color: '#ff33cc', weight: 2, opacity: 1};
+                return {color: '#831F21', weight: 2, opacity: 1};
             case "Daphne":
-                return {color: '#ff6600', weight: 2, opacity: 1};
+                return {color: '#EE8818', weight: 2, opacity: 1};
+            case "Eleanor":
+                return {color: '#27A5DB', weight: 2, opacity: 1};
         }
     }
 });
 var customLayer2 = L.geoJson(null, {
     pointToLayer: function (feature, latLng) {
         if (feature.properties.hasOwnProperty('last')) {
-            return new L.Marker(latLng);
+            switch(feature.properties.name) {
+            case "Annabelle":
+                return new L.Marker(latLng, {
+                icon: L.ExtraMarkers.icon({
+                    icon: 'fa-number',
+                    number: 'A',
+                    markerColor: 'yellow',
+                    shape: 'circle'
+
+                  })
+            });
+            case "Barnabus":
+                return new L.Marker(latLng, {
+                icon: L.ExtraMarkers.icon({
+                    icon: 'fa-number',
+                    number: 'B',
+                    markerColor: 'green-light',
+                    shape: 'circle'
+
+                  })
+            });
+            case "Chester":
+                return new L.Marker(latLng, {
+                icon: L.ExtraMarkers.icon({
+                    icon: 'fa-number',
+                    number: 'C',
+                    markerColor: 'red',
+                    shape: 'circle'
+
+                  })
+            });
+            case "Daphne":
+                return new L.Marker(latLng, {
+                icon: L.ExtraMarkers.icon({
+                    icon: 'fa-number',
+                    number: 'D',
+                    markerColor: 'orange',
+                    shape: 'circle'
+
+                  })
+            });
+            case "Eleanor":
+                return new L.Marker(latLng, {
+                icon: L.ExtraMarkers.icon({
+                    icon: 'fa-number',
+                    number: 'E',
+                    markerColor: 'cyan',
+                    shape: 'circle'
+
+                  })
+            });
         }
-        return L.circleMarker(latLng);
+        }
+
     },
     style: function (feature) {
         switch(feature.properties.name) {
             case "Annabelle":
-                return {color: '#00cc00', weight: 2, opacity: 1};
+                return {color: '#F4B323', weight: 2, opacity: 1};
             case "Barnabus":
-                return {color: '#0066ff', weight: 2, opacity: 1};
+                return {color: '#68AC3A', weight: 2, opacity: 1};
             case "Chester":
-                return {color: '#ff0000', weight: 2, opacity: 1};
-            case "Eleanor":
-                return {color: '#ff33cc', weight: 2, opacity: 1};
+                return {color: '#831F21', weight: 2, opacity: 1};
             case "Daphne":
-                return {color: '#ff6600', weight: 2, opacity: 1};
+                return {color: '#EE8818', weight: 2, opacity: 1};
+            case "Eleanor":
+                return {color: '#27A5DB', weight: 2, opacity: 1};
         }
     }
 });
 var customLayer3 = L.geoJson(null, {
     pointToLayer: function (feature, latLng) {
         if (feature.properties.hasOwnProperty('last')) {
-            return new L.Marker(latLng);
+            switch(feature.properties.name) {
+            case "Annabelle":
+                return new L.Marker(latLng, {
+                icon: L.ExtraMarkers.icon({
+                    icon: 'fa-number',
+                    number: 'A',
+                    markerColor: 'yellow',
+                    shape: 'circle'
+
+                  })
+            });
+            case "Barnabus":
+                return new L.Marker(latLng, {
+                icon: L.ExtraMarkers.icon({
+                    icon: 'fa-number',
+                    number: 'B',
+                    markerColor: 'green-light',
+                    shape: 'circle'
+
+                  })
+            });
+            case "Chester":
+                return new L.Marker(latLng, {
+                icon: L.ExtraMarkers.icon({
+                    icon: 'fa-number',
+                    number: 'C',
+                    markerColor: 'red',
+                    shape: 'circle'
+
+                  })
+            });
+            case "Daphne":
+                return new L.Marker(latLng, {
+                icon: L.ExtraMarkers.icon({
+                    icon: 'fa-number',
+                    number: 'D',
+                    markerColor: 'orange',
+                    shape: 'circle'
+
+                  })
+            });
+            case "Eleanor":
+                return new L.Marker(latLng, {
+                icon: L.ExtraMarkers.icon({
+                    icon: 'fa-number',
+                    number: 'E',
+                    markerColor: 'cyan',
+                    shape: 'circle'
+
+                  })
+            });
         }
-        return L.circleMarker(latLng);
+        }
+
     },
     style: function (feature) {
         switch(feature.properties.name) {
             case "Annabelle":
-                return {color: '#00cc00', weight: 2, opacity: 1};
+                return {color: '#F4B323', weight: 2, opacity: 1};
             case "Barnabus":
-                return {color: '#0066ff', weight: 2, opacity: 1};
+                return {color: '#68AC3A', weight: 2, opacity: 1};
             case "Chester":
-                return {color: '#ff0000', weight: 2, opacity: 1};
-            case "Eleanor":
-                return {color: '#ff33cc', weight: 2, opacity: 1};
+                return {color: '#831F21', weight: 2, opacity: 1};
             case "Daphne":
-                return {color: '#ff6600', weight: 2, opacity: 1};
+                return {color: '#EE8818', weight: 2, opacity: 1};
+            case "Eleanor":
+                return {color: '#27A5DB', weight: 2, opacity: 1};
         }
     }
 });

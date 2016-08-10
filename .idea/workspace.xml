@@ -2,67 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cba5472-cdcd-4212-ac4f-7acd2da839bc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/annabelle.gpx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/data/OG.gpx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/data/easy_currents_track.kml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/data/running_mallorca.gpx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/data/running_mallorca3.gpx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/.directory" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/GitHub-Mark-32px.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/black-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/dot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/grey-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/logo-leaflettimedimension-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/logo-leaflettimedimension.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/logo-socib.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/running.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/screenshot/.directory" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/screenshot/1-aviso.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/screenshot/10-imageoverlay-customcontrol.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/screenshot/11-noaa-cdr-sst.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/screenshot/12-nyc-opendata.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/screenshot/13-wms-timeseries.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/screenshot/14-noaa-nowcast.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/screenshot/15-oil-spill.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/screenshot/2-temperature-forecast.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/screenshot/3-hfradar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/screenshot/4-rain-radar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/screenshot/5-climate-projections.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/screenshot/6-sapoib.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/screenshot/7-ocean-forecast.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/screenshot/8-hfradar-with-drifters.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/screenshot/9-gxp-kml-tracks.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/screenshot/screenshot-leaflet-timedimension.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/img/surface-drifter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/js/baselayers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/js/example1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/js/example10-data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/js/example10.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/js/example11.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/js/example12.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/js/example13.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/js/example14.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/js/example15.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/js/example2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/js/example3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/js/example4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/js/example5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/js/example6.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/js/example7.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/js/example8.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/js/extras/leaflet.timedimension.circlelabelmarker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/js/extras/leaflet.timedimension.layer.wms.timeseries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/js/mapControl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/src/leaflet.timedimension.control.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/src/leaflet.timedimension.control.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/src/leaflet.timedimension.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/src/leaflet.timedimension.layer.geojson.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/src/leaflet.timedimension.layer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/src/leaflet.timedimension.layer.wms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/src/leaflet.timedimension.player.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican_migration/src/leaflet.timedimension.util.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/mapControl.js" afterPath="$PROJECT_DIR$/js/mapControl.js" />
     </list>
     <ignored path="pelican_migration.iws" />
@@ -88,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="663">
+              <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -98,8 +38,8 @@
       <file leaf-file-name="mapControl.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/mapControl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+            <state relative-caret-position="522">
+              <caret line="264" column="3" selection-start-line="264" selection-start-column="3" selection-end-line="264" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -113,6 +53,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/mapControl.js" />
       </list>
     </option>
@@ -521,16 +462,16 @@
     <entry file="file://$PROJECT_DIR$/data/annabelle.gpx" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="663">
+          <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/mapControl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+        <state relative-caret-position="522">
+          <caret line="264" column="3" selection-start-line="264" selection-start-column="3" selection-end-line="264" selection-end-column="3" />
           <folding />
         </state>
       </provider>
