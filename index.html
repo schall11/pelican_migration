@@ -26,12 +26,18 @@
 		#dateDisp{
 			color: white;
 			background-color: black;
-			position: absolute;
+			position: absolute !important;
 			top: 25px;
 			left: 150px;
 			font-size: 30px;
 			padding: 10px;
+            width: 160px;
+            z-index: 999999999999999999999999999;
+            text-align: center;
 		}
+        #dateDisp:empty {
+           display: none;
+        }
 		.leaflet-bar-timecontrol .timecontrol-speed .speed {
 		width: 45px;
 		}
@@ -39,7 +45,7 @@
 </head>
 <body>
     <div id="map"></div>
-	<div id="dateDisp"></div>
+	<div id="dateDisp" ></div>
 
 
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>

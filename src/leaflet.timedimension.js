@@ -73,10 +73,12 @@ L.TimeDimension = (L.Layer || L.Class).extend({
 		console.log(d);
 		var mon = d.substring(4,7);
 		var yr = d.substring(11,15);
+        var full = d.substring(4,15);
 		console.log("mon",mon);
 		console.log("yr",yr);
 		//$('#dateDisp').text(d.substring(0,7));
-		$('#dateDisp').text(mon + " " + yr);
+		//$('#dateDisp').text(mon + " " + yr);
+        $('#dateDisp').text(full);
         if (this._checkSyncedLayersReady(this._availableTimes[this._loadingTimeIndex])) {
             this._newTimeIndexLoaded();
         } else {
